@@ -1,0 +1,122 @@
+<h1>2026 ASA South Florida Student Data Challenge</h1>
+
+<p>
+This repository provides the training and test datasets for the ASA South Florida 2026 Student Data Challenge.
+The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division.
+</p>
+
+<hr />
+
+<h2>Dataset Description</h2>
+
+<p>
+The data consist of <strong>1,200 individuals</strong> sampled from the 2024 NHANES.
+The outcome variable is:
+</p>
+
+<ul>
+  <li>
+    <strong>LBDHDD_outcome</strong> – a noise-perturbed version of Direct HDL-Cholesterol (mg/dL).
+    This prevents reconstruction of the original NHANES values while preserving realistic structure.
+  </li>
+</ul>
+
+<p>Predictors include:</p>
+<ul>
+  <li>Dietary intake from the <strong>24-hour dietary recall interview</strong></li>
+  <li>Demographics (age, gender, race/ethnicity, income-to-poverty ratio, marital status)</li>
+  <li>Anthropometrics (BMI, waist circumference)</li>
+  <li>Alcohol indicators and diet-behavior variables</li>
+</ul>
+
+<p>
+<strong>Training:</strong> 1,000 observations<br />
+<strong>Test:</strong> 200 observations
+</p>
+
+<p>
+All variables retain NHANES labels and can be inspected using <code>attr(x, "label")</code>.
+</p>
+
+<hr />
+
+<h2>Downloading the Data in R</h2>
+
+<pre><code class="language-r">### Download Training Data
+
+tmp &lt;- tempfile()
+download.file("https://luminwin.github.io/ASASF/train.rds", tmp, mode = "wb")
+train &lt;- readRDS(tmp)
+
+### View Variable Labels
+
+lapply(train, attr, "label")
+
+### Download Test Data
+
+download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
+test &lt;- readRDS(tmp)
+</code></pre>
+
+<h2>Competition Tasks</h2>
+
+<h3>1. Prediction Track (Undergraduate and Graduate)</h3>
+
+<p>Predict <strong>LBDHDD_outcome</strong> for the test dataset.</p>
+
+<p><strong>Submission requirements:</strong></p>
+<ul>
+  <li>A CSV file named <strong><code>pred.csv</code></strong></li>
+  <li>Exactly <strong>one column</strong>, named <strong><code>pred</code></strong></li>
+  <li>The number of rows must match the test dataset</li>
+  <li>Predictions must be in the <strong>same order as the test data</strong></li>
+  <li>
+    A <strong>2-page PDF report</strong> summarizing:
+    <ul>
+      <li>Model and preprocessing choices</li>
+      <li>Validation or tuning strategy</li>
+      <li>Final model used for generating predictions</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Evaluation:</strong><br />
+Submissions are ranked by <strong>Root Mean Squared Error (RMSE)</strong> on the test dataset.
+</p>
+
+<hr />
+
+<h3>2. Visualization Track (High School)</h3>
+
+<p>Submit a <strong>1–4 page PDF</strong> containing:</p>
+<ul>
+  <li>At least two clear visualizations based on variables in the training dataset</li>
+  <li>Short explanations describing patterns, trends, or insights</li>
+</ul>
+
+<p>No modeling is required for this track.</p>
+
+<hr />
+
+<h2>Submission</h2>
+
+<p>Submit the following files:</p>
+<ul>
+  <li><code>pred.csv</code> (prediction track only)</li>
+  <li><code>Name_report.pdf</code></li>
+  <li>Optional: source code or notebook files</li>
+</ul>
+
+<p>
+Submissions should be uploaded through the designated form or emailed to
+<strong>asasfchapter@gmail.com</strong>.
+</p>
+
+<hr />
+
+<h2>Contact</h2>
+
+<p>
+For questions, please contact the ASA South Florida Data Challenge Committee at
+<strong>asasfchapter@gmail.com</strong>.
+</p>
