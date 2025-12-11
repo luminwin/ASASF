@@ -68,7 +68,7 @@ Submissions are ranked by **Root Mean Squared Error (RMSE)** on the test dataset
 
 ### 2. Visualization Track (High School)
 
-Submit a **1–2 page PDF** containing:
+Submit a **1–4 page PDF** containing:
 - At least two clear visualizations based on variables in the training dataset  
 - Short explanations describing patterns, trends, or insights  
 
