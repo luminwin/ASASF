@@ -4,8 +4,6 @@
 This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge.  
 The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. [html link](https://luminwin.github.io/ASASF/)
 
----
-
 ## Dataset Description
 
 The dataset includes **1,200 individuals** and **97 variables** sampled from the 2024 National Health and Nutrition Examination Survey (NHANES).  
@@ -24,8 +22,6 @@ Predictors include:
 **Test:** 200 observations  
 
 All variables retain NHANES labels and can be inspected using `attr(x, "label")`.
-
----
 
 **Downloading the Data in R**
 
