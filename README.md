@@ -1,14 +1,14 @@
 # 2026 ASA South Florida Student Data Challenge
 ## Annoucement: 01/01/2026; Deadline: 02/20/2026
 
-This repository provides the training and test datasets for the ASA South Florida 2026 Student Data Challenge.  
+This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge.  
 The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. [html link](https://luminwin.github.io/ASASF/)
 
 ---
 
 ## Dataset Description
 
-The data consist of **1,200 individuals** sampled from the 2024 NHANES.  
+The dataset includes **1,200 individuals** and **97 variables** sampled from the 2024 National Health and Nutrition Examination Survey (NHANES).  
 The outcome variable is:
 
 - **LBDHDD_outcome** – a noise-perturbed version of Direct HDL-Cholesterol (mg/dL).  
@@ -85,6 +85,15 @@ Submit the following files:
 - Optional: source code or notebook files  
 
 Submissions should be uploaded through the designated form or emailed to **asasfchapter@gmail.com**.
+
+---
+
+## Award
+
+- **$200 per winner**, with three winners total: one at the **high school**, **undergraduate**, and **graduate** levels  
+- Winners will be recognized and invited to present posters at the **2026 Annual ASA Florida Chapter Meeting**  
+- The **top 20%** of participants will receive a certificate of recognition  
+- The **top 10%** of participants will receive a waived registration fee for the **2026 Annual ASA Florida Chapter Meeting**
 
 ---
 
