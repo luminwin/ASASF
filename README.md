@@ -45,6 +45,14 @@ lapply(train, attr, "label")
 download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
 test <- readRDS(tmp)
 ```
+## Eligibility
+
+- Any student is eligible to participate, including students at the **high school**, **undergraduate**, and **graduate** levels.
+- Submissions may be made by an **individual** or a **team of up to 4 members**.
+- Each participant or team is allowed **one submission**.
+- For team submissions, the competition level is determined by the **highest academic level among all team members**. Mixed-level teams will be evaluated in the category corresponding to that highest level.
+
+---
 
 ## Competition Tasks
 
