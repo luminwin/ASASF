@@ -71,8 +71,14 @@ Predict **LBDHDD_outcome** for the test dataset.
   - Validation and/or tuning strategy
   - The final model used to generate predictions, including code snippets or a link to the full code repository
 
-**Evaluation:**  
-Submissions are ranked by **Root Mean Squared Error (RMSE)** on the test dataset.
+**Allowed Software:**
+Participants may use **any software, programming language, or computational tools** to generate their submissions.
+
+**Evaluation Process**
+
+- For the prediction task, submissions will first be ranked based on **Root Mean Squared Error (RMSE)** evaluated on the test dataset.
+- The **top 30%** of participants (within each competition level) will advance to the **final evaluation stage**.
+- In the final stage, submissions will be reviewed by judges and ranked based on the **quality, clarity, and rigor of the submitted reports**.
 
 ---
 
