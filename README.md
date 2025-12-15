@@ -58,7 +58,7 @@ Predict **LBDHDD_outcome** for the test dataset.
   - The number of rows must match the test dataset
   - Predictions must be in the **same order as the test data**
 
-- A PDF report (**maximum 4 pages**) summarizing:
+- A report (**maximum 4 pages**) named **`<participant_or_team_name>.pdf`**, summarizing:
   - Model and preprocessing choices
   - Validation and/or tuning strategy
   - The final model used to generate predictions, including code snippets or a link to the full code repository
