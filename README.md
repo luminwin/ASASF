@@ -60,7 +60,7 @@ test <- readRDS(tmp)
 
 Predict **LBDHDD_outcome** for the test dataset.
 
-## Submission Requirements
+**Submission Requirements**
 - A CSV file named **`pred.csv`**
   - Exactly **one column**, named **`pred`**
   - The number of rows must match the test dataset
