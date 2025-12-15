@@ -27,7 +27,7 @@ All variables retain NHANES labels and can be inspected using `attr(x, "label")`
 
 ---
 
-## Downloading the Data in R
+**Downloading the Data in R**
 
 ```r
 ### Download Training Data
