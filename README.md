@@ -52,15 +52,16 @@ test <- readRDS(tmp)
 
 Predict **LBDHDD_outcome** for the test dataset.
 
-**Submission requirements:**
+## Submission Requirements
 - A CSV file named **`pred.csv`**
-- Exactly **one column**, named **`pred`**
-- The number of rows must match the test dataset
-- Predictions must be in the **same order as the test data**
-- A **2-page PDF report** summarizing:
-  - Model and preprocessing choices  
-  - Validation or tuning strategy  
-  - Final model used for generating predictions  
+  - Exactly **one column**, named **`pred`**
+  - The number of rows must match the test dataset
+  - Predictions must be in the **same order as the test data**
+
+- A PDF report (**maximum 4 pages**) summarizing:
+  - Model and preprocessing choices
+  - Validation and/or tuning strategy
+  - The final model used to generate predictions, including code snippets or a link to the full code repository
 
 **Evaluation:**  
 Submissions are ranked by **Root Mean Squared Error (RMSE)** on the test dataset.
