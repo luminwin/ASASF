@@ -45,6 +45,9 @@ lapply(train, attr, "label")
 download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
 test <- readRDS(tmp)
 ```
+
+---
+
 ## Eligibility
 
 - Any student is eligible to participate, including students at the **high school**, **undergraduate**, and **graduate** levels. High school students are encouraged to participate in the visualization task. High school submissions to the prediction task will be evaluated in the undergraduate competition category.
