@@ -95,7 +95,7 @@ No modeling is required for this track.
 
 Submit the following files:
 - `pred.csv` (prediction track only)  
-- `Name_report.pdf`  
+- `participant_or_team_name.pdf`  
 - Optional: source code or notebook files  
 
 Submissions should be uploaded through the designated form or emailed to **asasfchapter@gmail.com**.
