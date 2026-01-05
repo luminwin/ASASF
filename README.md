@@ -106,11 +106,11 @@ Submissions should be uploaded through the [designated form](https://forms.gle/X
 
 ## Award
 
-- **$150 per winner**, with four winners total: 
-–- High School (Prediction Track)
-–- High School (Visualization Track)
-–- Undergraduate (Prediction Track)
-–- Graduate (Prediction Track)
+- **$150 per winner**, with four winners total: <br> 
+–- High School (Prediction Track) <br> 
+–- High School (Visualization Track) <br> 
+–- Undergraduate (Prediction Track) <br> 
+–- Graduate (Prediction Track) <br> 
 - Winners will be recognized and invited to present posters at the **2026 Annual ASA Florida Chapter Meeting**  
 - The **top 20%** of participants will receive a certificate of recognition  
 - The **top 10%** of participants will receive a waived registration fee for the **2026 Annual ASA Florida Chapter Meeting**
