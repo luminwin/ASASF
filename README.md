@@ -3,7 +3,7 @@
 
 [Competition Website](https://luminwin.github.io/ASASF/)
 &nbsp;&nbsp;&nbsp;
-[Call for Student Submissions (PDF)](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf)
+[Announcement (PDF)](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf)
 &nbsp;&nbsp;&nbsp;
 [Flyer – High School](https://luminwin.github.io/ASASF/Flyer-highschool.pdf)
 &nbsp;&nbsp;&nbsp;
