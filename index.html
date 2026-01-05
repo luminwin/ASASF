@@ -1,48 +1,130 @@
-<h1>2026 ASA South Florida Student Data Challenge</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026 ASA South Florida Student Data Challenge</title>
+  <style>
+    :root{
+      --text:#111;
+      --muted:#555;
+      --bg:#fff;
+      --border:#e6e6e6;
+      --codebg:#f6f8fa;
+      --link:#0969da;
+    }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    }
+    main{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    h1{ font-size: 2.1rem; margin: 0 0 6px; }
+    h2{ font-size: 1.5rem; margin: 28px 0 10px; border-top:1px solid var(--border); padding-top:18px; }
+    h3{ font-size: 1.15rem; margin: 18px 0 8px; }
+    p{ margin: 10px 0; }
+    .subhead{
+      color:var(--muted);
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+    a{ color:var(--link); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    ul{ margin: 8px 0 12px 22px; }
+    li{ margin: 6px 0; }
+    code{
+      font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      font-size: 0.95em;
+      background: var(--codebg);
+      padding: 0.15em 0.35em;
+      border-radius: 6px;
+    }
+    pre{
+      background: var(--codebg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      overflow:auto;
+      margin: 10px 0 14px;
+    }
+    pre code{
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      font-size: 0.95em;
+      display: block;
+      white-space: pre;
+    }
+    hr{
+      border:0;
+      border-top:1px solid var(--border);
+      margin: 22px 0;
+    }
+    .note{
+      background:#fff8c5;
+      border:1px solid #f0d95a;
+      padding: 10px 12px;
+      border-radius: 10px;
+      margin: 12px 0 16px;
+    }
+  </style>
+</head>
 
-<p>
-This repository provides the training and test datasets for the ASA South Florida 2026 Student Data Challenge.
-The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division.
-</p>
+<body>
+<main>
+  <h1>2026 ASA South Florida Student Data Challenge</h1>
+  <p class="subhead">Annoucement: 01/07/2026; Deadline: 11:59pm EST, 02/20/2026</p>
 
-<hr />
+  <p>
+    This repository provides the training and test datasets for the American Statistical Association (ASA)
+    South Florida 2026 Student Data Challenge.<br />
+    The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the
+    high-school division.
+    <a href="https://luminwin.github.io/ASASF/" target="_blank" rel="noopener">html link</a>
+  </p>
 
-<h2>Dataset Description</h2>
+  <p>
+    Students at the high school, undergraduate, and graduate levels may participate and will be evaluated within
+    their respective academic levels, with two award categories for high school students (prediction and visualization).
+  </p>
 
-<p>
-The data consist of <strong>1,200 individuals</strong> sampled from the 2024 NHANES.
-The outcome variable is:
-</p>
+  <h2>Dataset Description</h2>
 
-<ul>
-  <li>
-    <strong>LBDHDD_outcome</strong> – a noise-perturbed version of Direct HDL-Cholesterol (mg/dL).
-    This prevents reconstruction of the original NHANES values while preserving realistic structure.
-  </li>
-</ul>
+  <p>
+    The dataset includes <strong>1,200 individuals</strong> and <strong>97 variables</strong> sampled from the 2024
+    National Health and Nutrition Examination Survey (NHANES).<br />
+    The outcome variable is:
+  </p>
 
-<p>Predictors include:</p>
-<ul>
-  <li>Dietary intake from the <strong>24-hour dietary recall interview</strong></li>
-  <li>Demographics (age, gender, race/ethnicity, income-to-poverty ratio, marital status)</li>
-  <li>Anthropometrics (BMI, waist circumference)</li>
-  <li>Alcohol indicators and diet-behavior variables</li>
-</ul>
+  <ul>
+    <li>
+      <strong>LBDHDD_outcome</strong> – a noise-perturbed version of Direct HDL-Cholesterol (mg/dL).<br />
+      This prevents reconstruction of the original NHANES values while preserving realistic structure.
+    </li>
+  </ul>
 
-<p>
-<strong>Training:</strong> 1,000 observations<br />
-<strong>Test:</strong> 200 observations
-</p>
+  <p>Predictors include:</p>
+  <ul>
+    <li>Dietary intake from the <strong>24-hour dietary recall interview</strong></li>
+    <li>Demographics (age, gender, race/ethnicity, income-to-poverty ratio, marital status)</li>
+    <li>Anthropometrics (BMI, waist circumference)</li>
+    <li>Alcohol indicators and diet-behavior variables</li>
+  </ul>
 
-<p>
-All variables retain NHANES labels and can be inspected using <code>attr(x, "label")</code>.
-</p>
+  <p><strong>Training:</strong> 1,000 observations<br />
+     <strong>Test:</strong> 200 observations</p>
 
-<hr />
+  <p>All variables retain NHANES labels and can be inspected using <code>attr(x, "label")</code>.</p>
 
-<h2>Downloading the Data in R</h2>
+  <h3>Downloading the Data in R</h3>
 
-<pre><code class="language-r">### Download Training Data
+  <pre><code class="language-r">### Download Training Data
 
 tmp &lt;- tempfile()
 download.file("https://luminwin.github.io/ASASF/train.rds", tmp, mode = "wb")
@@ -55,68 +137,110 @@ lapply(train, attr, "label")
 ### Download Test Data
 
 download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
-test &lt;- readRDS(tmp)
-</code></pre>
+test &lt;- readRDS(tmp)</code></pre>
 
-<h2>Competition Tasks</h2>
+  <hr />
 
-<h3>1. Prediction Track (Undergraduate and Graduate)</h3>
+  <h2>Eligibility</h2>
+  <ul>
+    <li>
+      Any student is eligible to participate, including <strong>high school</strong>, <strong>undergraduate</strong>,
+      and <strong>graduate</strong> students, with no geographic restrictions (not limited to Florida or South Florida).
+    </li>
+    <li>Submissions may be made by an <strong>individual</strong> or a <strong>team of up to 4 members</strong>.</li>
+    <li>Each participant or team is allowed <strong>one submission</strong>.</li>
+    <li>
+      For team submissions, the competition level is determined by the <strong>highest academic level among all team members</strong>.
+      Mixed-level teams will be evaluated in the category corresponding to that highest level.
+    </li>
+  </ul>
 
-<p>Predict <strong>LBDHDD_outcome</strong> for the test dataset.</p>
+  <hr />
 
-<p><strong>Submission requirements:</strong></p>
-<ul>
-  <li>A CSV file named <strong><code>pred.csv</code></strong></li>
-  <li>Exactly <strong>one column</strong>, named <strong><code>pred</code></strong></li>
-  <li>The number of rows must match the test dataset</li>
-  <li>Predictions must be in the <strong>same order as the test data</strong></li>
-  <li>
-    A <strong>2-page PDF report</strong> summarizing:
-    <ul>
-      <li>Model and preprocessing choices</li>
-      <li>Validation or tuning strategy</li>
-      <li>Final model used for generating predictions</li>
-    </ul>
-  </li>
-</ul>
+  <h2>Competition Tasks</h2>
 
-<p><strong>Evaluation:</strong><br />
-Submissions are ranked by <strong>Root Mean Squared Error (RMSE)</strong> on the test dataset.
-</p>
+  <h3>1. Prediction Track (High School, Undergraduate, and Graduate)</h3>
+  <p>Predict <strong>LBDHDD_outcome</strong> for the test dataset.</p>
 
-<hr />
+  <p><strong>Submission Requirements</strong></p>
+  <ul>
+    <li>
+      A CSV file named <strong><code>pred.csv</code></strong>
+      <ul>
+        <li>Exactly <strong>one column</strong>, named <strong><code>pred</code></strong></li>
+        <li>The number of rows must match the test dataset</li>
+        <li>Predictions must be in the <strong>same order</strong> as the test data</li>
+      </ul>
+    </li>
+    <li>
+      A report (<strong>maximum 4 pages</strong>) named <strong><code>&lt;participant_or_team_name&gt;.pdf</code></strong>, summarizing:
+      <ul>
+        <li>Model and preprocessing choices</li>
+        <li>Validation and/or tuning strategy</li>
+        <li>
+          The final model used to generate predictions, including code snippets or a link to the full code repository
+        </li>
+      </ul>
+    </li>
+  </ul>
 
-<h3>2. Visualization Track (High School)</h3>
+  <p><strong>Allowed Software:</strong> Participants may use <strong>any software, programming language, or computational tools</strong> to generate their submissions.</p>
 
-<p>Submit a <strong>1–4 page PDF</strong> containing:</p>
-<ul>
-  <li>At least two clear visualizations based on variables in the training dataset</li>
-  <li>Short explanations describing patterns, trends, or insights</li>
-</ul>
+  <p><strong>Evaluation Process</strong></p>
+  <ul>
+    <li>Submissions will first be ranked based on <strong>Root Mean Squared Error (RMSE)</strong> evaluated on the test dataset.</li>
+    <li>The <strong>top 30%</strong> of participants within each competition level (high school, undergraduate, graduate) will advance to the <strong>final evaluation stage</strong>.</li>
+    <li>In the final stage, submissions will be reviewed by judges and ranked based on the <strong>quality, clarity, and rigor</strong> of the submitted reports.</li>
+  </ul>
 
-<p>No modeling is required for this track.</p>
+  <hr />
 
-<hr />
+  <h3>2. Visualization Track (High School)</h3>
+  <p>Submit a <strong>1–4 page PDF</strong> containing:</p>
+  <ul>
+    <li>At least two clear visualizations based on variables in the training dataset</li>
+    <li>Short explanations describing patterns, trends, or insights</li>
+  </ul>
+  <p>No modeling is required for this track.</p>
 
-<h2>Submission</h2>
+  <hr />
 
-<p>Submit the following files:</p>
-<ul>
-  <li><code>pred.csv</code> (prediction track only)</li>
-  <li><code>Name_report.pdf</code></li>
-  <li>Optional: source code or notebook files</li>
-</ul>
+  <h2>Submission</h2>
+  <p>Submit the following files:</p>
+  <ul>
+    <li><code>pred.csv</code> (prediction track only)</li>
+    <li><code>participant_or_team_name.pdf</code></li>
+    <li>Optional: source code or notebook files</li>
+  </ul>
 
-<p>
-Submissions should be uploaded through the designated form or emailed to
-<strong>asasfchapter@gmail.com</strong>.
-</p>
+  <p>
+    Submissions should be uploaded through the
+    <a href="https://forms.gle/XAuuDYiU4RPqMEyJ7" target="_blank" rel="noopener">designated form</a>
+    (File uploads require Google login; this is a Google Forms requirement).
+  </p>
 
-<hr />
+  <hr />
 
-<h2>Contact</h2>
+  <h2>Award</h2>
+  <ul>
+    <li>
+      <strong>$150 per winner</strong>, with four winners total:
+      <br />&ndash; High School (Prediction Track)
+      <br />&ndash; High School (Visualization Track)
+      <br />&ndash; Undergraduate (Prediction Track)
+      <br />&ndash; Graduate (Prediction Track)
+    </li>
+    <li>Winners will be recognized and invited to present posters at the <strong>2026 Annual ASA Florida Chapter Meeting</strong></li>
+    <li>The <strong>top 20%</strong> of participants will receive a certificate of recognition</li>
+    <li>The <strong>top 10%</strong> of participants will receive a waived registration fee for the <strong>2026 Annual ASA Florida Chapter Meeting</strong></li>
+  </ul>
 
-<p>
-For questions, please contact the ASA South Florida Data Challenge Committee at
-<strong>asasfchapter@gmail.com</strong>.
-</p>
+  <hr />
+
+  <h2>Contact</h2>
+  <p>
+    For questions, please contact Dr Min Lu at <strong>m.lu6@umiami.edu</strong> or <strong>asasfchapter@gmail.com</strong>.
+  </p>
+</main>
+</body>
+</html>
