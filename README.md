@@ -1,8 +1,10 @@
 # 2026 ASA South Florida Student Data Challenge
 ## Annoucement: 01/07/2026; Deadline: 11:59pm EST, 02/20/2026
 
+[html link](https://luminwin.github.io/ASASF/) [Announcement]([https://luminwin.github.io/ASASF/](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf)
+
 This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge.  
-The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. [html link](https://luminwin.github.io/ASASF/)
+The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. 
 
 Students at the high school, undergraduate, and graduate levels may participate and will be evaluated within their respective academic levels, with two award categories for high school students (prediction and visualization).
 
