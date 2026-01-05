@@ -98,7 +98,7 @@ Submit the following files:
 - `participant_or_team_name.pdf`  
 - Optional: source code or notebook files  
 
-Submissions should be uploaded through the [designated form](https://forms.gle/XAuuDYiU4RPqMEyJ7) (Google login is required in order to upload files).
+Submissions should be uploaded through the [designated form](https://forms.gle/XAuuDYiU4RPqMEyJ7) (File uploads require Google login; this is a Google Forms requirement).
 
 ---
 
