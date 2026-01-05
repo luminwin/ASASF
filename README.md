@@ -98,7 +98,7 @@ Submit the following files:
 - `participant_or_team_name.pdf`  
 - Optional: source code or notebook files  
 
-Submissions should be uploaded through the designated form or emailed to **asasfchapter@gmail.com**.
+Submissions should be uploaded through the [designated form](https://forms.gle/XAuuDYiU4RPqMEyJ7) (Google login is required in order to upload files).
 
 ---
 
@@ -113,6 +113,6 @@ Submissions should be uploaded through the designated form or emailed to **asasf
 
 ## Contact
 
-For questions, please contact Dr Min Lu at **m.lu6@umiami.edu**.
+For questions, please contact Dr Min Lu at **m.lu6@umiami.edu** or **asasfchapter@gmail.com**.
 
 
