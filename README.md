@@ -4,6 +4,8 @@
 This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge.  
 The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. [html link](https://luminwin.github.io/ASASF/)
 
+Students at the high school, undergraduate, and graduate levels may participate and will be evaluated within their respective academic levels, with two award categories for high school students (prediction and visualization).
+
 ## Dataset Description
 
 The dataset includes **1,200 individuals** and **97 variables** sampled from the 2024 National Health and Nutrition Examination Survey (NHANES).  
@@ -55,7 +57,7 @@ test <- readRDS(tmp)
 
 ## Competition Tasks
 
-### 1. Prediction Track (Undergraduate and Graduate)
+### 1. Prediction Track (High School, Undergraduate, and Graduate)
 
 Predict **LBDHDD_outcome** for the test dataset.
 
@@ -76,7 +78,7 @@ Participants may use **any software, programming language, or computational tool
 **Evaluation Process**
 
 - For the prediction task, submissions will first be ranked based on **Root Mean Squared Error (RMSE)** evaluated on the test dataset.
-- The **top 30%** of participants (within each competition level) will advance to the **final evaluation stage**.
+- The **top 30%** of participants within each competition level (high school, undergraduate, graduate) will advance to the **final evaluation stage**.
 - In the final stage, submissions will be reviewed by judges and ranked based on the **quality, clarity, and rigor of the submitted reports**.
 
 ---
@@ -87,7 +89,7 @@ Submit a **1–4 page PDF** containing:
 - At least two clear visualizations based on variables in the training dataset  
 - Short explanations describing patterns, trends, or insights  
 
-No modeling is required for this track.
+No modeling is required for this track. 
 
 ---
 
@@ -104,7 +106,11 @@ Submissions should be uploaded through the [designated form](https://forms.gle/X
 
 ## Award
 
-- **$200 per winner**, with three winners total: one at the **high school**, **undergraduate**, and **graduate** levels  
+- **$150 per winner**, with four winners total: 
+–- High School (Prediction Track)
+–- High School (Visualization Track)
+–- Undergraduate (Prediction Track)
+–- Graduate (Prediction Track)
 - Winners will be recognized and invited to present posters at the **2026 Annual ASA Florida Chapter Meeting**  
 - The **top 20%** of participants will receive a certificate of recognition  
 - The **top 10%** of participants will receive a waived registration fee for the **2026 Annual ASA Florida Chapter Meeting**
