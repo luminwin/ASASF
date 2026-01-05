@@ -1,7 +1,15 @@
 # 2026 ASA South Florida Student Data Challenge
 ## Annoucement: 01/07/2026; Deadline: 11:59pm EST, 02/20/2026
 
-[html link](https://luminwin.github.io/ASASF/)  &nbsp;&nbsp;&nbsp;   [Announcement](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf) &nbsp;&nbsp;&nbsp; [Flyer for High School](https://luminwin.github.io/ASASF/Flyer-highschool.pdf) &nbsp;&nbsp;&nbsp; [Flyer for University](https://luminwin.github.io/ASASF/Flyer-university.pdf) &nbsp;&nbsp;&nbsp; [Flyer for Both](https://luminwin.github.io/ASASF/Flyer-all.pdf)
+[Competition Website](https://luminwin.github.io/ASASF/)
+&nbsp;&nbsp;&nbsp;
+[Call for Student Submissions (PDF)](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf)
+&nbsp;&nbsp;&nbsp;
+[Flyer – High School](https://luminwin.github.io/ASASF/Flyer-highschool.pdf)
+&nbsp;&nbsp;&nbsp;
+[Flyer – University](https://luminwin.github.io/ASASF/Flyer-university.pdf)
+&nbsp;&nbsp;&nbsp;
+[Flyer – All Levels](https://luminwin.github.io/ASASF/Flyer-all.pdf)
 
 
 This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge.  
