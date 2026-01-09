@@ -117,7 +117,7 @@ Submissions should be uploaded through the [designated form](https://forms.gle/X
 
 ## Award
 
-- **$150 per winner**, with four winners total: <br> 
+- **$300 per winner**, with four winners total: <br> 
 –- High School (Prediction Track) <br> 
 –- High School (Visualization Track) <br> 
 –- Undergraduate (Prediction Track) <br> 
