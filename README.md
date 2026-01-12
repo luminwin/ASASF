@@ -5,6 +5,8 @@
 &nbsp;&nbsp;&nbsp;
 [Announcement (PDF)](https://luminwin.github.io/ASASF/ASA_South_Florida_Student_Data_Challenge_2026_Call.pdf)
 &nbsp;&nbsp;&nbsp;
+[Teacher Call – High School](https://luminwin.github.io/ASASF/2026_ASA_South_Florida_High_School_Data_Challenge--teacher-facing.pdf)
+&nbsp;&nbsp;&nbsp;
 [Flyer – High School](https://luminwin.github.io/ASASF/Flyer-highschool.pdf)
 &nbsp;&nbsp;&nbsp;
 [Flyer – University](https://luminwin.github.io/ASASF/Flyer-university.pdf)
