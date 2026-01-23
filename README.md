@@ -14,7 +14,7 @@
 [Flyer – All Levels](https://luminwin.github.io/ASASF/Flyer-all.pdf)
 
 
-This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge. [**Join ASA South Florida email list**](https://forms.gle/gfSUi6885Qo5ASMm7)  
+This repository provides the training and test datasets for the American Statistical Association (ASA) South Florida 2026 Student Data Challenge. [*Join ASA South Florida email list*](https://forms.gle/gfSUi6885Qo5ASMm7)  
 The task is to predict HDL cholesterol from NHANES-based variables or to create visualizations for the high-school division. 
 
 Students at the high school, undergraduate, and graduate levels may participate and will be evaluated within their respective academic levels, with two award categories for high school students (prediction and visualization).
