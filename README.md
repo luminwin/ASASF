@@ -128,7 +128,8 @@ Submissions should be uploaded through the [designated form](https://forms.gle/X
 –- High School (Visualization Track) <br> 
 –- Undergraduate (Prediction Track) <br> 
 –- Graduate (Prediction Track) <br> 
-- Winners will be recognized and invited to present posters at the **2026 Annual ASA Florida Chapter Meeting**  
+- Winners will be recognized and invited to present posters at the **[2026 Annual ASA Florida Chapter Meeting](https://stempel.fiu.edu/asaflorida2026/<img width="468" height="23" alt="image" src="https://github.com/user-attachments/assets/a36f70c1-32bd-4519-93da-f4c864c9439c" />
+)**  
 - The **top 20%** of participants will receive a certificate of recognition  
 - The **top 10%** of participants will receive a waived registration fee for the **2026 Annual ASA Florida Chapter Meeting**
 
@@ -138,6 +139,6 @@ Awards will be issued as cash prizes to U.S. participants. For international par
 
 ## Contact
 
-For questions, please contact Dr Min Lu at **m.lu6@umiami.edu** or **asasfchapter@gmail.com**.
+For questions, please contact Dr [Min Lu](www.luminwin.net) at **m.lu6@umiami.edu** or **asasfchapter@gmail.com**.
 
 
