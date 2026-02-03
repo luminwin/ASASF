@@ -57,8 +57,11 @@ download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
 test <- readRDS(tmp)
 ```
 <p>
-  You can also download the CSV files (<code>train.csv</code>, <code>test.csv</code>, <code>variable_labels.csv</code>) directly from the GitHub repository   <a href="https://github.com/luminwin/ASASF" target="_blank">https://github.com/luminwin/ASASF</a> by clicking <strong>Code</strong> → <strong>Download ZIP</strong>:
+  You can also download the CSV files (<code>train.csv</code>, <code>test.csv</code>, <code>variable_labels.csv</code>) directly from this GitHub repository
+  <a href="https://github.com/luminwin/ASASF" target="_blank">https://github.com/luminwin/ASASF</a>
+  by clicking <strong>Code</strong> → <strong>Download ZIP</strong>.
 </p>
+
 
 ---
 
