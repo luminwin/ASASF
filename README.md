@@ -57,8 +57,7 @@ download.file("https://luminwin.github.io/ASASF/test.rds", tmp, mode = "wb")
 test <- readRDS(tmp)
 ```
 <p>
-  You can also download the CSV files (<code>train.csv</code>, <code>test.csv</code>, <code>variable_labels.csv</code>) directly from the GitHub repository by clicking <strong>Code</strong> → <strong>Download ZIP</strong>:
-  <a href="https://github.com/luminwin/ASASF" target="_blank">https://github.com/luminwin/ASASF</a>
+  You can also download the CSV files (<code>train.csv</code>, <code>test.csv</code>, <code>variable_labels.csv</code>) directly from the GitHub repository   <a href="https://github.com/luminwin/ASASF" target="_blank">https://github.com/luminwin/ASASF</a> by clicking <strong>Code</strong> → <strong>Download ZIP</strong>:
 </p>
 
 ---
@@ -128,8 +127,7 @@ Submissions should be uploaded through the [designated form](https://forms.gle/X
 –- High School (Visualization Track) <br> 
 –- Undergraduate (Prediction Track) <br> 
 –- Graduate (Prediction Track) <br> 
-- Winners will be recognized and invited to present posters at the **[2026 Annual ASA Florida Chapter Meeting](https://stempel.fiu.edu/asaflorida2026/<img width="468" height="23" alt="image" src="https://github.com/user-attachments/assets/a36f70c1-32bd-4519-93da-f4c864c9439c" />
-)**  
+- Winners will be recognized and invited to present posters at the [2026 Annual ASA Florida Chapter Meeting](https://stempel.fiu.edu/asaflorida2026/)
 - The **top 20%** of participants will receive a certificate of recognition  
 - The **top 10%** of participants will receive a waived registration fee for the **2026 Annual ASA Florida Chapter Meeting**
 
@@ -139,6 +137,6 @@ Awards will be issued as cash prizes to U.S. participants. For international par
 
 ## Contact
 
-For questions, please contact Dr [Min Lu](www.luminwin.net) at **m.lu6@umiami.edu** or **asasfchapter@gmail.com**.
+For questions, please contact Dr [Min Lu](https://www.luminwin.net) at m.lu6@umiami.edu or asasfchapter@gmail.com.
 
 
