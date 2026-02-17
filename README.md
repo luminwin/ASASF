@@ -1,5 +1,5 @@
 # 2026 ASA South Florida Student Data Challenge
-## Deadline: 11:59pm EST, 02/20/2026
+## Deadline: 11:59pm EST, 02/20/2026 (Undergraduate Deadline Extended: Sunday, February 22, 2026 – 11:59pm EST)
 
 [Competition Website](https://luminwin.github.io/ASASF/)
 &nbsp;&nbsp;&nbsp;
