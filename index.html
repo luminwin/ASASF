@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="2026 ASA South Florida Student Data Challenge — NHANES-based prediction and visualization competition for students." />
   <title>2026 ASA South Florida Student Data Challenge</title>
-
+    <style>
+  .photo-row img.small-photo {
+    width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    height: auto;
+  }
+</style>
   <style>
     :root{
       --text:#111;
@@ -398,6 +405,209 @@ test <- readRDS(tmp)</code></pre>
       </ul>
     </div>
   </main>
+
+  <!-- ===== 2026 SHOWCASE SECTION ===== -->
+  <section id="showcase">
+    <div class="wrap">
+
+      <h2>2026 Showcase and Award Ceremony</h2>
+
+      <p>
+        The 2026 ASA South Florida Student Data Challenge Showcase and Award Ceremony was held on March 6, 2026,
+        at Florida International University as part of the annual ASA Florida Chapter Meeting.
+        Four top student teams each gave a brief 5-minute presentation showcasing their work, followed by the award ceremony recognizing outstanding participants across institutions in South Florida.
+        Photos from the ceremony are included below.
+      </p>
+
+      <style>
+        .award-block {
+          margin: 24px 0;
+          padding: 18px;
+          background: var(--card);
+          border: 1px solid var(--border);
+          border-radius: 12px;
+        }
+        .award-block h3 {
+          margin: 0 0 6px;
+          font-size: 1.05rem;
+          color: var(--text);
+        }
+        .award-block .institution {
+          font-size: 0.92rem;
+          color: var(--muted);
+          margin: 0 0 12px;
+        }
+        .photo-row {
+          display: flex;
+          gap: 10px;
+          flex-wrap: wrap;
+          align-items: flex-start;
+        }
+        .photo-row img {
+          border-radius: 8px;
+          object-fit: cover;
+          object-position: top;
+          max-height: 200px;
+          width: auto;
+          flex: 1 1 200px;
+          max-width: 100%;
+        }
+        .photo-row img.main-photo {
+          flex: 2 1 340px;
+          max-height: 576px;
+        }
+        .caption {
+          font-size: 0.87rem;
+          color: var(--muted);
+          margin-top: 8px;
+          font-style: italic;
+        }
+        .award-label {
+          display: inline-block;
+          background: #0b5fff;
+          color: #fff;
+          font-size: 0.82rem;
+          font-weight: 600;
+          padding: 3px 10px;
+          border-radius: 20px;
+          margin-bottom: 8px;
+        }
+        .award-label.gold   { background: #b8860b; }
+        .award-label.silver { background: #5a7a9c; }
+        .award-label.merit  { background: #2e7d52; }
+        .award-label.honor  { background: #7a5c9c; }
+
+        .gallery-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+          gap: 10px;
+          margin-top: 14px;
+        }
+        .gallery-grid img {
+          width: 100%;
+          height: 576px;
+          object-fit: cover;
+          object-position: top;
+          border-radius: 8px;
+          border: 1px solid var(--border);
+        }
+      </style>
+<style>
+  .photo-row img.small-photo {
+    width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    height: auto;
+  }
+</style>
+      <!-- Organizer's Note -->
+      <div class="award-block">
+        <h3>Organizer's Note</h3>
+        <div class="photo-row">
+          <img class="main-photo" src="ceremony/note.jpg" alt="Organizer's Note — 2026 South Florida Data Challenge" style="object-fit: contain; background: #fff;" />
+        </div>
+      </div>
+
+      <!-- Excellence Award -->
+      <div class="award-block">
+        <span class="award-label gold">Excellence Award — Sole Recipient</span>
+        <h3>Jade Muyambo</h3>
+        <p class="institution">University of Miami</p>
+        <div class="photo-row">
+<img class="small-photo" src="ceremony/3.jpg" alt="Jade Muyambo receiving award" />
+<img class="small-photo" src="ceremony/4.jpg" alt="Jade Muyambo receiving award" />
+          <img class="main-photo" src="ceremony/2.jpg" alt="Jade Muyambo Excellence Award group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Min Lu (competition organizer), Dr. Ji-Hyun Lee (Representative of ASA), Jade Muyambo (student winner), Dr. Shari Messinger (President of ASA South Florida Chapter)</p>
+      </div>
+
+      <!-- Distinguished Achievement — Diana Dancea -->
+      <div class="award-block">
+        <span class="award-label silver">Distinguished Achievement Award — Top 10%</span>
+        <h3>Diana Elizabeth Dancea</h3>
+        <p class="institution">Florida Atlantic University</p>
+        <div class="photo-row">
+<img class="small-photo" src="ceremony/6.jpg" alt="Diana Dancea receiving award" />
+<img class="small-photo" src="ceremony/7.jpg" alt="Diana Dancea receiving award" />
+          <img class="main-photo" src="ceremony/5.jpg" alt="Diana Dancea Distinguished Achievement group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Min Lu (competition organizer), Dr. Ji-Hyun Lee (Representative of ASA), Diana Elizabeth Dancea (student winner), Dr. Shari Messinger (President of ASA South Florida Chapter)</p>
+      </div>
+
+      <!-- Distinguished Achievement — Daniel & Miguel -->
+      <div class="award-block">
+        <span class="award-label silver">Distinguished Achievement Award — Top 10%</span>
+        <h3>Daniel Regalado Cardoso &amp; Miguel Rocha</h3>
+        <p class="institution">University of Miami</p>
+        <div class="photo-row">
+<img class="small-photo" src="ceremony/8.jpg" alt="Daniel and Miguel receiving award" />
+<img class="small-photo" src="ceremony/9.jpg" alt="Daniel and Miguel receiving award" />
+<img class="main-photo" src="ceremony/9-1.jpg" alt="Daniel and Miguel Distinguished Achievement group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Min Lu (competition organizer), Daniel Regalado Cardoso &amp; Miguel Rocha (student winners), Dr. Ji-Hyun Lee (Representative of ASA), Dr. Shari Messinger (President of ASA South Florida Chapter)</p>
+      </div>
+
+      <!-- Certificate of Statistical Merit — Zihao Wang -->
+      <div class="award-block">
+        <span class="award-label merit">Certificate of Statistical Merit — Top 20%</span>
+        <h3>Zihao Wang</h3>
+        <p class="institution">University of Miami</p>
+        <div class="photo-row">
+<img class="small-photo" src="ceremony/11.jpg" alt="Zihao Wang receiving award" />
+<img class="small-photo" src="ceremony/12.jpg" alt="Zihao Wang receiving award" />
+          <img class="main-photo" src="ceremony/10.jpg" alt="Zihao Wang Statistical Merit group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Min Lu (competition organizer), Dr. Ji-Hyun Lee (Representative of ASA), Zihao Wang (student winner), Dr. Shari Messinger (President of ASA South Florida Chapter)</p>
+      </div>
+
+      <!-- Certificate of Honorable Mention — Jingwei Gu -->
+      <div class="award-block">
+        <span class="award-label honor">Certificate of Honorable Mention — Top 30%</span>
+        <h3>Jingwei Gu</h3>
+        <p class="institution">Florida International University</p>
+        <div class="photo-row">
+ <img class="small-photo" src="ceremony/14.jpg" alt="Jingwei Gu receiving award" />
+<img class="small-photo" src="ceremony/15.jpg" alt="Jingwei Gu with poster" />
+          <img class="main-photo" src="ceremony/13.jpg" alt="Jingwei Gu Honorable Mention group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Min Lu (competition organizer), Dr. Ji-Hyun Lee (Representative of ASA), Jingwei Gu (student winner), Dr. Shari Messinger (President of ASA South Florida Chapter)</p>
+      </div>
+
+      <!-- Certificate of Honorable Mention — HM Nayem -->
+      <div class="award-block">
+        <span class="award-label honor">Certificate of Honorable Mention — Top 30%</span>
+        <h3>HM Nayem</h3>
+        <p class="institution">Florida International University</p>
+        <div class="photo-row">
+          <img class="main-photo" src="ceremony/16.jpg" alt="HM Nayem Honorable Mention group photo" />
+        </div>
+        <p class="caption">From left to right: Dr. Shari Messinger (President of ASA South Florida Chapter), Dr. Ji-Hyun Lee (Representative of ASA), HM Nayem (student winner), Dr. Florence George (faculty mentor), Dr. Min Lu (competition organizer)</p>
+      </div>
+      
+            <div class="award-block">
+        <span class="award-label honor">Certificate of Honorable Mention — Top 30%</span>
+        <h3>Deepak Bastola, Akhilesh Singh Kushwaha</h3>
+        <p class="institution">Florida Atlantic University</p>
+        <div class="photo-row">
+          <img class="main-photo" src="ceremony/17.jpg" alt="HM Nayem with poster" />
+          <p class="caption">From left to right:eepak Bastola, Akhilesh Singh Kushwaha</p>
+        </div>
+        </div>
+        
+      <div class="award-block">
+        <h3>Poster Session &amp; Group Photos</h3>
+        <div class="photo-row">
+          <img class="small-photo" src="ceremony/poster.jpg" alt="Poster session at the 2026 Annual ASA Florida Chapter Meeting" />
+          <img class="small-photo" src="ceremony/18.jpg" alt="Rabeya Illyas Noon presenting her poster, Florida International University" />
+          <img class="main-photo" src="ceremony/19.jpg" alt="Award ceremony group photo at the 2026 ASA South Florida Student Data Challenge" />
+          <img class="main-photo" src="ceremony/20.jpg" alt="Group photo at 2026 Annual ASA Florida Chapter Meeting, March 6, Florida International University" />
+        </div>
+        <p class="caption">Poster session and group photos from the 2026 Annual ASA Florida Chapter Meeting, March 6–7, Florida International University. Poster participant: Rabeya Illyas Noon (Florida International University).</p>
+      </div>  
+      
+ 
+      </div>
+  </section>
 
   <footer>
     <div class="wrap">
